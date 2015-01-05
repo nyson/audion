@@ -1,0 +1,107 @@
+body, ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#controls {
+    
+    display: table;
+    width: 100%;
+    text-align: center;
+    background-color: #22d;
+    height: 40px;
+}
+#controls > li {
+    display: table-cell;
+    margin: auto 0;
+    list-style-type: none;
+    background-color: #22d;
+}
+
+#controls .max {
+    width: 100% !important;
+}
+
+
+#controls label, #controls button {
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+}
+
+#controls > li > label,
+#controls > li > button,
+#volumeContainer {
+    background-color: #22d;
+    color: #fff;
+}
+
+#volumeContainer {
+    width: 64px;
+    height: 32px;
+    float: left;
+    position: relative;
+}
+
+#volumeContainer button {
+    background-color: transparent;
+    color: #fff;
+    position: absolute;
+}
+
+#volumeContainer #incVol {
+    left: 32px;
+}
+#volumeContainer #decVol {
+    left: 0px;
+}
+
+#vBar {
+    height: 40px;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    background-color: #2a2 !important;
+}
+
+
+#pbContainer {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #555;
+    text-align: center;
+}
+
+#pbPerc {
+    display: hidden;
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+#pb {
+    background-color: #2a2 !important;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 100%;
+    z-index: 0; 
+}
