@@ -45,7 +45,7 @@ body, ul {
 
 #volumeContainer {
     width: 64px;
-    height: 32px;
+    height: 40px;
     float: left;
     position: relative;
 }
